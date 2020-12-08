@@ -87,7 +87,7 @@ Further work
 	Another future development that we wanted to make after the target before is achieved is to developed the AI to be able to generate a whole poem by itself by taking a view keywords as an identifier on the topic and words that wanted to be used in the Poem/Lyrics.
 
 Resources
-	This are some resources we use to develop our rhyme generator project: 
+	These are some resources we use to develop our rhyme generator project: 
 o	https://www.rhymedb.com/ 
 o	https://stackoverflow.com/questions/25714531/find-rhyme-using-nltk-in-python
 o	https://www.nltk.org/data.html 
