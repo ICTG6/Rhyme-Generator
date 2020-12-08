@@ -19,14 +19,15 @@ Table of Contents
 	We started our project by doing a web scrapping using Python to get csv file with the content of some rhymes word and then will do some more code to get user input and give out the list of word that rhymes with the user input 
 
 	We will be using Natural Language Toolkit (NLTK) Library to do our rhyme generator project. The Notebook includes four parts of code:
-		1. Load the NLTK Library
-		2. Generate Rhyme
-		3. Differentiate Rhyme 
-		4. Get user Input
+	1.  Load the NLTK Library
+	2.  Generate Rhyme
+	3.  Differentiate Rhyme 
+	4.  Get user Input
 
 
 
-2. Set Up
+2.Set Up
+
 2.1. Load Library
 	Download The NLTK Library inside local PC first then run this code
 		import nltk
