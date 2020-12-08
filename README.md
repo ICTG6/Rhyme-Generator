@@ -15,9 +15,7 @@ Table of Contents
 	Artist: The Chainsmokers and Coldplay 
 	Song: Something Just Like This
 
-------------------------------------------------------------------------------------------------
-	We will start by doing a web scrapping using Python to get csv file with the content of some rhymes word and then will do some more code to get user input and give out the list of word that rhymes with the user input 
-------------------------------------------------------------------------------------------------
+	We started our project by doing a web scrapping using Python to get csv file with the content of some rhymes word and then will do some more code to get user input and give out the list of word that rhymes with the user input 
 
 	We will be using Natural Language Toolkit (NLTK) Library to do our rhyme generator project. The Notebook includes four parts of code:
 1.	Load the NLTK Library
@@ -25,8 +23,7 @@ Table of Contents
 3.	Differentiate Rhyme 
 4.	Get user Input
 
-NLTK
-------------------------------------------------------------------------------------------------
+
 2. Set Up
 2.1. Load Library
 	Download The NLTK Library inside local PC first then run this code
@@ -34,32 +31,32 @@ NLTK
 		nltk.download('cmudict')
 
 2.2. Code to Generate the Rhyme
-	# Check words
+# Check words
 	def check(word1, word2):
 	  if(word1==word2):
  	   return True
 
-	# Get the libraries Content
+# Get the libraries Content
+
 	entries = nltk.corpus.cmudict.entries()
 	print(entries)
 
-
-
 	def rhyme(inpword, stress):
-    	 entries = nltk.corpus.cmudict.entries()
+    	entries = nltk.corpus.cmudict.entries()
 
-   	#get the syllabus
-   	  Num_of_syl = [(input_word, syl) for input_word, syl in entries if check(input_word,inpword)]
-   	  listOfRhymes = []
+#get the syllabus
+   	 Num_of_syl = [(input_word, syl) for input_word, syl in entries if check(input_word,inpword)]
+   	 listOfRhymes = []
 
-     	#get the word which have the same end as the syllabus
-    	 for (input_word, syllable) in Num_of_syl:
+#get the word which have the same end as the syllabus
+   	 for (input_word, syllable) in Num_of_syl:
              listOfRhymes += [input_word for input_word, Pronunciation in entries if (check(Pronunciation[-stress:],syllable[-stress:]))]      
     	 return set(listOfRhymes)
 
 
 
 2.3. Code to Differentiate a Rhyme
+
 	def RhymeorNot(firstword, secondword):
     		if firstword.find(secondword) == len(firstword) - len(secondword):
      		   return False
@@ -69,13 +66,16 @@ NLTK
     	return firstword in rhyme(secondword, 1)
 
 2.4. Get User Input
-	This code will get user input and output a list of rhymes words based on the input
+This code will get user input and output a list of rhymes words based on the input
+	
 		a = str(input('Enter word:'))
 		b = int(input('Enter Level of how good the rhyme is:'))
 		userinput = rhyme(a,b)
 		print(userinput)
 
-	This code will be used to check is a word rhymes with the 2 given inputs.
+
+ This code will be used to check is a word rhymes with the 2 given inputs.
+	
 		RhymeorNot('near','dear')
 ------------------------------------------------------------------------------------------------
 
