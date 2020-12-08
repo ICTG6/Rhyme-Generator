@@ -26,7 +26,7 @@ Table of Contents
 
 
 
-2.Set Up
+#2.Set Up
 
 2.1. Load Library
 	Download The NLTK Library inside local PC first then run this code
