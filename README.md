@@ -1,9 +1,8 @@
 # Table of Contents
 	1. Introduction
 	2. Set up
-	3. Analysis 
-	4. Further Work 
-	5. Resources 
+	3. Further Work 
+	4. Resources 
 	
 	
 # 1. Introduction
@@ -84,14 +83,12 @@ This code will get user input and output a list of rhymes words based on the inp
 	
 		RhymeorNot('near','dear')
 
-# 3. Analysis
 
-
-# 4. Further work
+# 3. Further work
  	Our target of this project is the set up a website where people could use it to search for a rhyme of a words. We have another goal to improve our current project where instead of giving a result of a list of rhymes word based on user input, we wanted to develop it into a generator that could give output of one line that rhymes with the specific words so there will be an AI that could create and generate the one line automatically.
 	Another future development that we wanted to make after the target before is achieved is to developed the AI to be able to generate a whole poem by itself by taking a view keywords as an identifier on the topic and words that wanted to be used in the Poem/Lyrics.
 
-# 5. Resources
+# 4. Resources
 	These are some resources we use to develop our rhyme generator project: 
 	
 		o https://www.rhymedb.com/ 
