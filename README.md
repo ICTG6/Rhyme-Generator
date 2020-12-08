@@ -6,7 +6,7 @@
 	
 	
 # 1. Introduction
-	This is our first group project together, we choose to do a project with topic of Rhyme Generator. We choose this topic because it picked our interest on how rhyme works and the important of thymes where it could increase our mood also it could enhance our creativity. Our target of current project is to help user in finding rhymes based on user input word and will result a list of word that rhymes with the user input.
+	This is our first group project together, we chose to work on "Rhyme Generator". Nowadays there are different hobbies and one of those is writing lyrics and poems. This topic picked our interest on how rhyme works. Rhymes help people to express themselves in a creative way. Our target of current project is to help user in finding rhymes based on user input word and will result a list of word that rhymes with the user input.
 	There are a lot of rhymes pattern and our project right now will only focus on the ABAB pattern where first line will rhyme with the third line and the second line will rhyme with the fourth line, vice versa. For Example: 
 		I've been reading books of old
 		The legends and the myths
