@@ -19,10 +19,11 @@ Table of Contents
 	We started our project by doing a web scrapping using Python to get csv file with the content of some rhymes word and then will do some more code to get user input and give out the list of word that rhymes with the user input 
 
 	We will be using Natural Language Toolkit (NLTK) Library to do our rhyme generator project. The Notebook includes four parts of code:
-1.	Load the NLTK Library
-2.	Generate Rhyme
-3.	Differentiate Rhyme 
-4.	Get user Input
+		1. Load the NLTK Library
+		2. Generate Rhyme
+		3. Differentiate Rhyme 
+		4. Get user Input
+
 
 
 2. Set Up
@@ -84,8 +85,9 @@ This code will get user input and output a list of rhymes words based on the inp
 
 Analysis
 
+
 Further work
-	 Our target of this project is the set up a website where people could use it to search for a rhyme of a words. We have another goal to improve our current project where instead of giving a result of a list of rhymes word based on user input, we wanted to develop it into a generator that could give output of one line that rhymes with the specific words so there will be an AI that could create and generate the one line automatically.
+ 	Our target of this project is the set up a website where people could use it to search for a rhyme of a words. We have another goal to improve our current project where instead of giving a result of a list of rhymes word based on user input, we wanted to develop it into a generator that could give output of one line that rhymes with the specific words so there will be an AI that could create and generate the one line automatically.
 	Another future development that we wanted to make after the target before is achieved is to developed the AI to be able to generate a whole poem by itself by taking a view keywords as an identifier on the topic and words that wanted to be used in the Poem/Lyrics.
 
 Resources
