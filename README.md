@@ -1,4 +1,4 @@
-# Introduction
+# How Popular is Rhyme?
 
 This is our first group project together, we chose to work on "Rhyme Generator". Nowadays there are different hobbies and one of those is writing lyrics and poems. This topic picked our interest on how rhyme works. Rhymes help people to express themselves in a creative way. Our target of current project is to help user in finding rhymes based on user input word and will result a list of word that rhymes with the user input.
 
